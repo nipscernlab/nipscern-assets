@@ -1,0 +1,18 @@
+name: Guarda de tamanho
+
+on: [push, pull_request]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Bloqueia arquivos acima de 95 MB
+        run: |
+          big=$(find . -path ./.git -prune -o -type f -size +95M -print)
+          if [ -n "$big" ]; then
+            echo "::error::Arquivos acima do limite (o GitHub Pages bloqueia 100 MB):"
+            echo "$big"
+            exit 1
+          fi
+          echo "Todos os arquivos estao dentro do limite."

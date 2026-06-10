@@ -1,0 +1,15 @@
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/
+.idea/
+*.swp
+*~
+
+# Temporários de otimização (versões originais ficam no espelho local, não aqui)
+*.tmp
+*.temp
+_originais/
