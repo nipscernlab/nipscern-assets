@@ -31,7 +31,11 @@ no repositório do site.
 4. **Nomes em kebab-case**, sem espaços e sem acentos:
    `mest-2025-lucca-oliveira.pdf`, não `MEST 2025 Lucca Oliveira.pdf`.
 
-## Acesso
+## Acesso e licença
 
 Repositório mantido pelo NIPSCERN (UFJF). Membros da organização têm acesso
 de escrita; contribuições externas são bem-vindas via pull request.
+
+O acervo é regido pela [Licença NIPSCERN 1.0](LICENSE.md). Atenção: PDFs de
+teses e dissertações pertencem aos seus autores, e a mídia do CERN segue os
+termos do CERN, conforme os créditos do site.
