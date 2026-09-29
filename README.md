@@ -18,6 +18,7 @@ no repositório do site.
 | `images/` | Imagens grandes (WebP, largura máx. 2560 px) | `cdn.nipscern.com/images/...` |
 | `cgvweb/` | Geometria e arquivos de evento do CGVWeb | `cdn.nipscern.com/cgvweb/...` |
 | `archives/` | Pacotes (tours 360°, panorâmicas) | `cdn.nipscern.com/archives/...` |
+| `courses/` | Material dos cursos da library: PDFs dos slides, folhas de tópicos, guias e os vídeos das aulas (1080p, H.264). Uma pasta por curso, com nome versionado; quem escreve aqui é o `tools/courses/build.py` do site | `cdn.nipscern.com/courses/...` |
 
 ## Regras de contribuição
 
